@@ -1,0 +1,12 @@
+asset,role,segment,ipv4,critical_dependencies,recovery_priority
+ID-01,Primary identity service,IDENTITY,10.40.20.10,AUTH-DB,P1
+ID-02,Secondary identity service,IDENTITY,10.40.20.11,AUTH-DB,P1
+AUTH-DB,Identity database,DATA,10.40.20.15,STORAGE-01,P1
+APP-01,Primary business application,APP,10.40.30.20,ID-01;DB-01;STORAGE-01,P2
+APP-02,Secondary business application,APP,10.40.30.21,ID-02;DB-01;STORAGE-01,P2
+DB-01,Transaction database,DATA,10.40.20.30,STORAGE-01,P1
+STORAGE-01,Primary enterprise storage,STORAGE,10.40.40.10,FABRIC-A;FABRIC-B,P1
+BKP-01,Backup coordinator,RECOVERY,10.40.50.10,STORAGE-02;CATALOG-DB,P1
+STORAGE-02,Backup repository,RECOVERY,10.40.50.20,RECOVERY-NET,P1
+ORCH-01,Approved orchestration,MGMT,10.40.60.10,MGMT-NET,P2
+SOC-01,Forensic workstation,SECURITY,10.40.70.10,TELEMETRY,P3
