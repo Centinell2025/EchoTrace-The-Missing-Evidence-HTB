@@ -1,0 +1,6 @@
+record_id,timestamp_utc,host,event_id,channel,description
+WIN001,2026-09-28T02:08:00Z,ID-01,7036,System,authentication service running
+WIN002,2026-09-28T02:14:18Z,ID-01,7011,System,authentication dependency timeout
+WIN003,2026-09-28T02:16:02Z,AUTH-DB,129,System,storage request timeout
+WIN004,2026-09-28T02:31:07Z,APP-01,7031,System,business application terminated unexpectedly
+WIN005,2026-09-28T02:31:19Z,APP-02,7031,System,business application terminated unexpectedly

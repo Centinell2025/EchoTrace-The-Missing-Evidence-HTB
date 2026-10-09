@@ -1,0 +1,5 @@
+record_id,timestamp_utc,host,path,reason,observation
+FS001,2026-09-28T02:09:02Z,DB-01,C:\Data\transactions.db,DATA_EXTEND,normal write growth
+FS002,2026-09-28T02:24:51Z,DB-01,C:\Data\transactions.db,DATA_OVERWRITE,write request observed
+FS003,2026-09-28T02:32:51Z,STORAGE-01,C:\Volumes\Data,READ_ONLY_TRANSITION,protective volume state
+FS004,2026-09-28T02:33:42Z,DB-01,C:\Data\transactions.db,ACCESS_FAILURE,write request could not complete
