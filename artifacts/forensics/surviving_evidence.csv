@@ -1,0 +1,6 @@
+evidence_id,source,collection_time_utc,survived_primary_outage,forensic_value,limitation
+EV001,SOC telemetry mirror,2026-09-28T03:30:00Z,yes,Cross-system event timing,Not native host logs
+EV002,Network flow collector,2026-09-28T03:32:00Z,yes,Independent communication records,No payload contents
+EV003,STORAGE-02 repository inventory,2026-09-28T03:35:00Z,yes,Backup object validation,Does not validate application consistency
+EV004,ORCH-01 job audit,2026-09-28T03:37:00Z,yes,Automation sequence and job IDs,Does not prove who initiated job
+EV005,STORAGE-01 metadata export,2026-09-28T03:42:00Z,partial,Storage failure sequence,Gap after metadata instability

@@ -1,0 +1,6 @@
+backup_id,dataset,scheduled_utc,status,catalog_size_bytes,repository_object,verification_state,last_restore_test_utc
+BKP1001,AUTH-DB,2026-09-27T23:00:00Z,success,419430400,obj-auth-0927,verified,2026-09-20T14:00:00Z
+BKP1002,DB-01,2026-09-27T23:30:00Z,success,8589934592,obj-db-0927,verified,2026-09-20T15:00:00Z
+BKP1003,FINANCE-SHARE,2026-09-28T00:00:00Z,success,4294967296,obj-fin-0928,unverified,2026-08-30T16:00:00Z
+BKP1004,RESEARCH-DATA,2026-09-28T00:30:00Z,success,12884901888,obj-rd-0928,unverified,2026-08-15T16:00:00Z
+BKP1005,APP-CONFIG,2026-09-28T01:00:00Z,success,268435456,obj-app-0928,verified,2026-09-21T13:00:00Z

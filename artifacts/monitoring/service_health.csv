@@ -1,0 +1,13 @@
+event_id,timestamp_utc,asset,service,state,latency_ms,error_rate,observation
+H001,2026-09-28T02:08:00Z,ID-01,authentication,healthy,42,0.002,baseline
+H002,2026-09-28T02:08:00Z,STORAGE-01,primary_volume,healthy,3,0.000,baseline
+H003,2026-09-28T02:14:18Z,ID-01,authentication,degraded,391,0.071,intermittent auth failures
+H004,2026-09-28T02:16:02Z,AUTH-DB,identity_store,degraded,812,0.093,storage latency
+H005,2026-09-28T02:18:44Z,APP-01,business_api,degraded,1441,0.118,dependency timeout
+H006,2026-09-28T02:20:09Z,APP-02,business_api,degraded,1308,0.104,dependency timeout
+H007,2026-09-28T02:24:51Z,DB-01,transactions,degraded,2102,0.162,write latency
+H008,2026-09-28T02:27:33Z,STORAGE-01,primary_volume,critical,8812,0.337,metadata path unstable
+H009,2026-09-28T02:31:07Z,APP-01,business_api,down,0,1.000,health check failed
+H010,2026-09-28T02:31:19Z,APP-02,business_api,down,0,1.000,health check failed
+H011,2026-09-28T02:33:42Z,DB-01,transactions,read_only,3901,0.412,protective mode
+H012,2026-09-28T02:36:10Z,BKP-01,backup_catalog,degraded,942,0.081,catalog verification delayed

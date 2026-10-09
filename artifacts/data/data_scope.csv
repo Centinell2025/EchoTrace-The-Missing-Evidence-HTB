@@ -1,0 +1,6 @@
+dataset,primary_location,expected_size_bytes,last_known_good_utc,current_state,recovery_evidence
+AUTH-DB,STORAGE-01,419430400,2026-09-27T23:00:00Z,unavailable,verified backup object present
+DB-01,STORAGE-01,8589934592,2026-09-27T23:30:00Z,read_only,verified backup object present
+FINANCE-SHARE,STORAGE-01,4294967296,2026-09-28T00:00:00Z,partially_unreadable,repository object incomplete
+RESEARCH-DATA,STORAGE-01,12884901888,2026-09-28T00:30:00Z,unavailable,catalog entry exists but repository object absent
+APP-CONFIG,STORAGE-01,268435456,2026-09-28T01:00:00Z,available,verified backup object present

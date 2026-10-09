@@ -1,0 +1,6 @@
+object_id,repository,observed_utc,present,observed_size_bytes,object_hash_state,read_test
+obj-auth-0927,STORAGE-02,2026-09-28T03:10:00Z,yes,419430400,match,pass
+obj-db-0927,STORAGE-02,2026-09-28T03:11:00Z,yes,8589934592,match,pass
+obj-fin-0928,STORAGE-02,2026-09-28T03:12:00Z,yes,1073741824,mismatch,fail
+obj-rd-0928,STORAGE-02,2026-09-28T03:13:00Z,no,0,unavailable,fail
+obj-app-0928,STORAGE-02,2026-09-28T03:14:00Z,yes,268435456,match,pass
