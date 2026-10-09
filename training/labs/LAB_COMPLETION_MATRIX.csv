@@ -1,0 +1,26 @@
+lab_id,discipline,student_lab_file,practical_evidence,execution_status
+ET-LAB-01,SQL Transaction Forensics,ET-LAB-01.md,training/sql/schema.sql;training/sql/seed.sql,synthetic SQL practice available
+ET-LAB-02,SQL Data Loss,ET-LAB-02.md,training/sql/schema.sql;training/sql/seed.sql,synthetic SQL practice available
+ET-LAB-03,SQL Privilege and Jobs,ET-LAB-03.md,training/sql/schema.sql;training/sql/seed.sql,synthetic SQL practice available
+ET-LAB-04,Windows Endpoint,ET-LAB-04.md,Windows native evidence pending,requires artifacts
+ET-LAB-05,NTFS Filesystem,ET-LAB-05.md,MFT/USN evidence pending,requires artifacts
+ET-LAB-06,Identity Dependencies,ET-LAB-06.md,artifacts/monitoring/service_health.csv,CSV correlation practice
+ET-LAB-07,Network Management,ET-LAB-07.md,artifacts/network/management_flows.csv,CSV correlation practice
+ET-LAB-08,Storage SAN,ET-LAB-08.md,artifacts/storage/storage_events.csv,CSV correlation practice
+ET-LAB-09,Backup Verification,ET-LAB-09.md,artifacts/backup/backup_catalog.csv;artifacts/backup/repository_inventory.csv,CSV correlation practice
+ET-LAB-10,Data Loss Scope,ET-LAB-10.md,artifacts/data/data_scope.csv,CSV correlation practice
+ET-LAB-11,AI Automation Assessment,ET-LAB-11.md,artifacts/orchestration/orch_events.csv,CSV correlation practice
+ET-LAB-12,Timeline Engineering,ET-LAB-12.md,artifacts/monitoring/service_health.csv;artifacts/storage/storage_events.csv,CSV correlation practice
+ET-LAB-13,Recovery Validation,ET-LAB-13.md,artifacts/backup/repository_inventory.csv,tabletop only
+ET-LAB-14,Business Continuity,ET-LAB-14.md,scenario/ASSET_INVENTORY.csv,tabletop only
+ET-LAB-15,Senior Capstone,ET-LAB-15.md,full synthetic evidence collection,partial evidence
+ET-LAB-16,SQL Log Sequence,ET-LAB-16.md,native SQL Server LSN evidence pending,requires artifacts
+ET-LAB-17,SQL Integrity,ET-LAB-17.md,native SQL Server database evidence pending,requires artifacts
+ET-LAB-18,SQL Agent,ET-LAB-18.md,SQL Agent job history pending,requires artifacts
+ET-LAB-19,RAID Snapshot,ET-LAB-19.md,RAID member and snapshot evidence pending,requires artifacts
+ET-LAB-20,Virtualization,ET-LAB-20.md,hypervisor evidence pending,requires artifacts
+ET-LAB-21,Cloud Forensics,ET-LAB-21.md,cloud audit evidence pending,requires artifacts
+ET-LAB-22,Memory Forensics,ET-LAB-22.md,memory image or derived records pending,requires artifacts
+ET-LAB-23,SQL Network Correlation,ET-LAB-23.md,SQL seed and management flows,partial correlation
+ET-LAB-24,Disaster Recovery,ET-LAB-24.md,backup inventory and architecture,tabletop only
+ET-LAB-25,Expert Capstone,ET-LAB-25.md,full synthetic evidence collection,partial evidence
