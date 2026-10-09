@@ -1,0 +1,5 @@
+device_id,device_type,firmware_version,approved_firmware_version,gateway,clock_offset_seconds,criticality
+IOT-GW-01,industrial gateway,2.4.1,2.4.1,EDGE-01,0,high
+IOT-TEMP-01,temperature sensor,1.8.0,1.8.0,IOT-GW-01,42,medium
+IOT-PWR-01,power monitor,3.1.2,3.1.2,IOT-GW-01,-15,high
+IOT-CTRL-01,industrial controller,4.0.0,4.0.0,IOT-GW-01,7,critical

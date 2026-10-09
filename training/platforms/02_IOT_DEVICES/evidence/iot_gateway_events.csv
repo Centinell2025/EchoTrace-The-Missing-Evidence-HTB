@@ -1,0 +1,8 @@
+record_id,collector_utc,device_id,event,severity,detail
+IOT001,2026-09-28T02:09:40Z,IOT-GW-01,heartbeat,info,normal upstream connection
+IOT002,2026-09-28T02:13:59Z,IOT-GW-01,upstream_latency,warning,storage dependent telemetry delayed
+IOT003,2026-09-28T02:15:03Z,IOT-TEMP-01,telemetry_delayed,warning,device clock offset must be considered
+IOT004,2026-09-28T02:17:20Z,IOT-PWR-01,heartbeat_gap,warning,missing expected sample
+IOT005,2026-09-28T02:21:11Z,IOT-GW-01,buffering_enabled,warning,local telemetry buffering
+IOT006,2026-09-28T02:31:45Z,IOT-CTRL-01,upstream_service_unavailable,critical,controller remains locally operational
+IOT007,2026-09-28T02:42:10Z,IOT-GW-01,buffer_integrity_check,info,local buffer readable

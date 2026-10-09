@@ -1,0 +1,6 @@
+record_id,timestamp_utc,host,unit,priority,message
+LIN001,2026-09-28T02:10:22Z,STORAGE-01,storage-path.service,warning,primary fabric latency elevated
+LIN002,2026-09-28T02:14:02Z,STORAGE-01,storage-path.service,warning,secondary path reset
+LIN003,2026-09-28T02:17:31Z,STORAGE-01,metadata.service,warning,journal checkpoint delayed
+LIN004,2026-09-28T02:27:33Z,STORAGE-01,metadata.service,error,metadata service restart loop
+LIN005,2026-09-28T02:32:51Z,STORAGE-01,volume.service,critical,volume switched to protective read-only
