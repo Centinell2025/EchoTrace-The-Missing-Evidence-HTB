@@ -1,0 +1,10 @@
+event_id,timestamp_utc,asset,component,event,severity,detail
+ST001,2026-09-28T02:10:22Z,STORAGE-01,FABRIC-A,path_latency,warning,latency above baseline
+ST002,2026-09-28T02:12:01Z,STORAGE-01,metadata,read_burst,info,unusual metadata enumeration
+ST003,2026-09-28T02:13:41Z,STORAGE-01,metadata,configuration_change,warning,snapshot retention reference modified
+ST004,2026-09-28T02:14:02Z,STORAGE-01,FABRIC-B,path_reset,warning,secondary path reset
+ST005,2026-09-28T02:15:49Z,STORAGE-01,volume-auth,token_validation_delay,warning,identity dependency timeout
+ST006,2026-09-28T02:17:31Z,STORAGE-01,metadata,journal_checkpoint,warning,checkpoint delayed
+ST007,2026-09-28T02:21:04Z,STORAGE-01,volume-data,write_queue_growth,critical,queue depth 91 percent
+ST008,2026-09-28T02:27:33Z,STORAGE-01,metadata,service_unstable,critical,metadata service restart loop
+ST009,2026-09-28T02:32:51Z,STORAGE-01,volume-data,protective_read_only,critical,write protection enabled
