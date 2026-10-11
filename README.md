@@ -34,3 +34,7 @@ Preserve original evidence. Normalize timestamps, identify source records, test 
 The core HTB candidate is the student case brief + 10 questions + 6 CSVs. Instructor solutions and the private writeup are **not included here**. Provide those separately to authorized reviewers using an agreed private channel. Public GitHub access alone does not replace an independently tested student archive or the requested private writeup.
 
 See [Reviewer Guide](REVIEWER_GUIDE.md), [Release Checklist](RELEASE_CHECKLIST.md), [Training Notice](TRAINING_NOTICE.md) and [Educational Purpose](EDUCATIONAL_TRAINING_PURPOSE.md).
+
+
+---
+**Ethical and educational use / Uso ético y educativo:** This is a fictional or simulated defensive cybersecurity training exercise. Test only systems you own or are explicitly authorized to assess. / Ejercicio de ciberseguridad defensiva ficticio o simulado. Realice pruebas solo en sistemas propios o con autorización expresa. See / Consulte [Educational Purpose Notice](EDUCATIONAL_PURPOSE_NOTICE.md).
